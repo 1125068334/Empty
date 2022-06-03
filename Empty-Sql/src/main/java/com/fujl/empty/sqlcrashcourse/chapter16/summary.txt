@@ -1,0 +1,1 @@
+topic: 介绍如何利用UPDATE和DELETE语句进一步操作表数据

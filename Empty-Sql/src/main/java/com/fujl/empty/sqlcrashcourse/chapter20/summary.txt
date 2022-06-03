@@ -1,0 +1,2 @@
+topic: 介绍什么是事务，如何利用commit和rollback语句管理事务
+        事务是必须完整执行的SQL语句块。

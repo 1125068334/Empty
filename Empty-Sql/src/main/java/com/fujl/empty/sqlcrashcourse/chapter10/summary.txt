@@ -1,0 +1,1 @@
+topic: 介绍如何分组数据，以便汇总表内容的子集。涉及两个新SELECT语句子句: group by子句和 having 子句
