@@ -1,0 +1,2 @@
+topic: 创建、更改和删除表的基本知识
+    create table用来创建新表，alter table用来更改表列(或其他诸如约束或索引等对象)，而drop table用来完整地删除一个表。

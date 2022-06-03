@@ -8,6 +8,7 @@
     <modules>
         <module>Empty-Nacos</module>
         <module>Empty-Daily</module>
+        <module>Empty-Sql</module>
     </modules>
     <packaging>pom</packaging>
 
