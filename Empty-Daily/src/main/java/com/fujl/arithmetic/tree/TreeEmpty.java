@@ -1,4 +1,4 @@
-package com.fujl.tree;
+package com.fujl.arithmetic.tree;
 
 import java.util.LinkedList;
 

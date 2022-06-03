@@ -1,9 +1,10 @@
-package com.fujl.arithmetic.fifo;
-
-
+package com.fujl.arithmetic.cache;
 
 import java.util.*;
 
+/**
+ * FIFO缓存逻辑实现
+ */
 public class FifoCache<K,V> {
 
     private int capacity;

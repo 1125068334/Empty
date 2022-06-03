@@ -1,6 +1,9 @@
 package com.fujl.arithmetic;
 
 
+/**
+ * 进制转换 TODO fujl 202206031018
+ */
 public class HexTrans {
 
     public static void main(String[] args) {

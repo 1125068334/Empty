@@ -1,7 +1,10 @@
-package com.fujl.arithmetic.lfu;
+package com.fujl.arithmetic.cache;
 
 import java.util.*;
 
+/**
+ * LFU缓存实现
+ */
 public class LfuCache<K, V> {
 
     private int capacity;
@@ -11,9 +14,9 @@ public class LfuCache<K, V> {
 
     public LfuCache(int capacity) {
         this.capacity = capacity;
-        this.minUsedCount = 1;
-        this.map = new HashMap<>();
-        this.usedCountMap = new HashMap<>();
+        minUsedCount = 1;
+        map = new HashMap<>();
+        usedCountMap = new HashMap<>();
     }
 
     private V get(K key){

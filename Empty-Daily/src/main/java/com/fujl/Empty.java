@@ -3,7 +3,6 @@ package com.fujl;
 import com.alibaba.fastjson.JSONObject;
 import jodd.util.StringUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.util.StopWatch;
 

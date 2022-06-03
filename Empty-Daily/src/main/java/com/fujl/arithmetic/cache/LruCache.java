@@ -1,10 +1,7 @@
-package com.fujl.arithmetic.lru;
-
-import org.junit.Test;
+package com.fujl.arithmetic.cache;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class LruCache<K, V> {
 
@@ -119,34 +116,6 @@ public class LruCache<K, V> {
             this.key = key;
             this.value = value;
         }
-    }
-
-    @Test
-    public void test() {
-        LruCache<String, String> cache = new LruCache(3);
-        cache.put("keyA", "valueA");
-        System.out.println("put keyA");
-        System.out.println(cache);
-        System.out.println("=========================");
-
-        cache.put("keyB", "valueB");
-        System.out.println("put keyB");
-        System.out.println(cache);
-        System.out.println("=========================");
-
-        cache.put("keyC", "valueC");
-        System.out.println("put keyC");
-        System.out.println(cache);
-        System.out.println("=========================");
-
-        cache.get("keyA");
-        System.out.println("get keyA");
-        System.out.println(cache);
-        System.out.println("=========================");
-
-        cache.put("keyD", "valueD");
-        System.out.println("put keyD");
-        System.out.println(cache);
     }
 
     public static void main(String[] args) {
